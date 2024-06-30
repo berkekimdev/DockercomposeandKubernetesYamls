@@ -33,7 +33,7 @@ services:
       - frontend-network
 
   frontend:
-    image: sudkostik/frontendservisi:0.0.3
+    image: sudkostik/frontendservice:latest
     ports:
       - "5173:5173"
     environment:
